@@ -44,9 +44,10 @@
     "puppeteer": "^19.4.0"
   },
   "dependencies": {
-    "@mozilla/readability": "^0.4.2",
+    "@postlight/parser": "^2.2.3",
     "@sentry/browser": "^7.36.0",
     "@webcomponents/webcomponentsjs": "^2.7.0",
-    "lit": "^2.6.0"
+    "lit": "^2.6.0",
+    "url": "^0.11.0"
   }
 }

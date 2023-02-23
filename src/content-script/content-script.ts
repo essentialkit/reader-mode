@@ -1,7 +1,8 @@
 import { Message } from "../shared";
 import { Logger } from "../logger";
 import { WinBox } from "../utils/winbox/winbox";
-import { isProbablyReaderable, Readability } from "@mozilla/readability";
+import isProbablyReaderable from "./is-readable";
+import Parser from '@postlight/parser';
 
 const L = new Logger("content-script");
 const onMessage = (
@@ -33,13 +34,23 @@ class Reader {
       console.log("Skipping page that is probably not readable");
       return;
     }
-    let reader = new Readability(window.document.cloneNode(true) as Document);
-    let article = reader.parse();
+   
+    let article = await Parser.parse(window.location.href, document.body.innerHTML.toString()).then(result => result);
     if (!article) {
       console.warn("Failed to parse article");
       return;
     }
-    winboxOptions.html = `<h1>${article.title}</h1> <p>${article.byline}</p> ${article.content}`;
+    if(!article.title || !article.content || article.word_count < 100) {
+      console.warn("Skipping potentially unsuitable article");
+      return;
+    }
+    winboxOptions.html = `
+    <h1>${article.title}</h1> 
+    <img src="${article.lead_image_url}" /> 
+    <p>${article.author}</p> 
+    <p>${article.date_published}</p> 
+    <i>${article.excerpt}</i>
+    ${article.content}`;
     new WinBox(chrome.i18n.getMessage("appName"), winboxOptions);
   }
 

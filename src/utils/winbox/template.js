@@ -38,6 +38,12 @@ export function markup(tpl){
 // The CSS below is used as text.
 // Hence it should not contain properties like @import or url that needs parsing.
 export const winboxcss = `
+  /* Prevent properties that are inhertied like color from leaking into shadowDom */
+  reader-mode-view p {
+    color: black;
+  }
+  
+
   .winbox {
     position: fixed;
     left: 0;
