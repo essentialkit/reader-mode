@@ -1,7 +1,6 @@
 import './options.css'
 import { OptionsElement } from '../utils/options-element';
 import '../utils/translate';
-import {WinBox} from '../utils/winbox/winbox';
 
 class OptionsPage {
   render(options) {
@@ -9,12 +8,6 @@ class OptionsPage {
     const optionsEl = new OptionsElement(options);
     document.body.appendChild(optionsEl);
 
-    new WinBox("Winbox Title", {
-      width: "400px",
-      height: "400px",
-      shadowel: "test-shadow",
-      html: `<h1>Hello winbox</h1>`
-    });
   }
 
 }

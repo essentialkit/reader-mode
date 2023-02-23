@@ -331,6 +331,10 @@ export class WinBox {
       (root || body).appendChild(this.dom);
     }
     (oncreate = params["oncreate"]) && oncreate.call(this, params);
+    document.addEventListener("resize", (e) => {
+      console.log("resize");
+      this.resize();
+    })
   }
   static new(params) {
     return new WinBox(params);
