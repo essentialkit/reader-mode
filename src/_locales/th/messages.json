@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "การเริ่มต้นเบราว์เซอร์",
+        "message": "โหมดผู้อ่าน",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "ค. ศ.",
+        "message": "โหมดผู้อ่าน",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "ตัวอย่างส่วนขยายเบราว์เซอร์ TypeScript, การทดสอบ E2E, การสร้างไอคอน, I18N อัตโนมัติและ ESBUILD",
+        "message": "ล้างความยุ่งเหยิงจากหน้าเว็บรวมถึงโฆษณาประกาศคุกกี้ป๊อปอัป",
         "description": "The description of your extension"
     }
 }

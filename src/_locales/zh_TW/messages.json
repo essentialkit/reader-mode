@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "瀏覽器擴展入門",
+        "message": "閱讀器模式",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "閱讀器模式",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "瀏覽器擴展示例。 打字稿，E2E測試，圖標生成，自動I18N和ESBUILD",
+        "message": "清除網頁中的混亂",
         "description": "The description of your extension"
     }
 }

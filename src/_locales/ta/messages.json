@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "உலாவி நீட்டிப்பு ஸ்டார்டர்",
+        "message": "வாசகர் பயன்முறை",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.e.s.",
+        "message": "வாசகர் பயன்முறை",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "உலாவி நீட்டிப்பு எடுத்துக்காட்டு. டைப்ஸ்கிரிப்ட், E2E சோதனைகள், ஐகான் உருவாக்கம், தானியங்கி i18n மற்றும் esbuild",
+        "message": "விளம்பரங்கள், குக்கீ அறிவிப்புகள், பாப்அப்கள் உள்ளிட்ட வலைப்பக்கங்களிலிருந்து ஒழுங்கீனத்தை அழிக்கவும்",
         "description": "The description of your extension"
     }
 }

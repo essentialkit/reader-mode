@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Стартер для розширення браузера",
+        "message": "Режим читання",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Режим читання",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Приклад розширення браузера. TypeScript, E2E тести, генерація піктограм, автоматичний I18N та Esbuild",
+        "message": "Очистіть безлад з веб -сторінок, включаючи оголошення, повідомлення про cookie, спливаючі вікна",
         "description": "The description of your extension"
     }
 }

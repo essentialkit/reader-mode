@@ -1,8 +1,8 @@
 {
-  "name": "xtension",
+  "name": "reader-mode",
   "version": "1.0.0",
   "description": "Chrome and Firefox extension starter with Typescript, ESBuild and E2E tests",
-  "homepage": "https://justiceo.github.io/xtension",
+  "homepage": "https://readermode.org",
   "scripts": {
     "build": "node tools/esbuild.js",
     "test": "node tools/esbuild.js test",
@@ -15,17 +15,22 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/justiceo/xtension"
+    "url": "https://github.com/justiceo/reader-mode"
   },
   "keywords": [
+    "kindle",
+    "reader",
+    "page cleaner",
+    "adblocker",
+    "cookie notice",
+    "popup blocker",
+    "medium style",
     "chrome",
     "firefox",
     "opera",
     "safari",
     "addon",
-    "extension",
-    "starter",
-    "boilerplate"
+    "extension"
   ],
   "devDependencies": {
     "@types/chrome": "^0.0.204",

@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "브라우저 확장 스타터",
+        "message": "리더 모드",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "리더 모드",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "브라우저 확장 예제. TypeScript, E2E 테스트, 아이콘 생성, 자동 I18N 및 Esbuild",
+        "message": "광고, 쿠키 통지, 팝업을 포함한 웹 페이지에서 클러터를 지우십시오.",
         "description": "The description of your extension"
     }
 }

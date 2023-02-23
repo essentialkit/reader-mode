@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Starter של סיומת דפדפן",
+        "message": "מצב קורא",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "מצב קורא",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "דוגמא להארכת דפדפן. Typescript, בדיקות E2E, ייצור אייקונים, אוטומטית I18N ו- ESBUILD",
+        "message": "נקה את העומס מדפי אינטרנט כולל מודעות, הודעות עוגיות, קופצים",
         "description": "The description of your extension"
     }
 }

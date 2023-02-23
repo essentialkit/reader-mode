@@ -76,9 +76,9 @@ export class Logger {
 
 if (!Logger.debugMode) {
   Sentry.init({
-    dsn: "__DSN__",
+    dsn: "https://206eef5ac48842d3a461cdf79d1e75fc@o526305.ingest.sentry.io/4504727620943872",
     tracesSampleRate: 0.1,
-    release: "xtension@23.01.10",
+    release: "reader-mode@23.01.10",
     environment: "PROD",
   });
 }

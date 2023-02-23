@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Стартер за разширение на браузъра",
+        "message": "Режим на четене",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Режим на четене",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Пример за разширение на браузъра. TypeScript, E2E тестове, генериране на икони, автоматично I18N и Esbuild",
+        "message": "Изчистете струпването от уеб страници, включително реклами, известия за бисквитки, изскачащи прозорци",
         "description": "The description of your extension"
     }
 }

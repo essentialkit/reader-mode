@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Inici de l'extensió del navegador",
+        "message": "Mode de lector",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Mode de lector",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Exemple d’extensió del navegador. TypeScript, E2E Proves, Generació d’icones, Automàtic I18N i ESBuild",
+        "message": "Esborreu el desordre de pàgines web que inclouen anuncis, avisos de galetes, emergents emergents",
         "description": "The description of your extension"
     }
 }

@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Böngészőhosszabbító indító",
+        "message": "Olvasó mód",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Olvasó mód",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Böngésző kiterjesztési példa. TypeScript, E2E tesztek, ikongenerálás, automatikus I18N és Esbuild",
+        "message": "Törölje a rendetlenséget a weboldalakról, beleértve a hirdetéseket, a süti közleményeket, a felbukkanásokat",
         "description": "The description of your extension"
     }
 }

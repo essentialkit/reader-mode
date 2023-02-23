@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Webbläsarförlängningsstarter",
+        "message": "Läsarläge",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "VARA S",
+        "message": "Läsarläge",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Exempel på webbläsarförlängning. TypeScript, E2E -test, ikongenerering, automatisk I18N och ESBUILD",
+        "message": "Rensa röran från webbsidor inklusive annonser, cookie -meddelanden, popups",
         "description": "The description of your extension"
     }
 }

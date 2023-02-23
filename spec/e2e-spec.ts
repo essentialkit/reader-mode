@@ -42,7 +42,7 @@ describe("Browser test suite", () => {
     it("should leave a screenshot for me to inspect", async () => {
       const page = await browser.newPage();
       await page.goto("https://google.com");
-      await page.screenshot({ path: "src/assets/screenshot.png" });
+      await page.screenshot({ path: "src/assets/screenshot.jpeg" });
       await page.close();
     });
   });

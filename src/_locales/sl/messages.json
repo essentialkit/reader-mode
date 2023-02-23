@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Zaganjalnik za razširitev brskalnika",
+        "message": "Način bralca",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Način bralca",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Primer razširitve brskalnika. TypeScript, E2E testi, generiranje ikon, avtomatski i18n in esbuild",
+        "message": "Očistite nered s spletnih strani, vključno z oglasi, obvestili o piškotkih, pojavnimi pojavnimi površinami",
         "description": "The description of your extension"
     }
 }

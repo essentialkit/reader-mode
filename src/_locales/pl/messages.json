@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Rozszerzenie rozszerzenia przeglądarki",
+        "message": "Tryb czytnika",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "BĄDZ S",
+        "message": "Tryb czytnika",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Przykład rozszerzenia przeglądarki. Testy TypeScript, E2E, generowanie ikon, automatyczne I18N i ESBUILD",
+        "message": "Wyczyść bałagan ze stron internetowych, w tym reklam, powiadomień o ciasteczkach, wyskakujących okienek",
         "description": "The description of your extension"
     }
 }

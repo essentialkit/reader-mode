@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Naršyklės plėtinio starteris",
+        "message": "Skaitytojo režimas",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Skaitytojo režimas",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Naršyklės plėtinio pavyzdys. „TypeScript“, „E2E“ testai, piktogramų generavimas, automatinis I18N ir „Esbuild“",
+        "message": "Išvalykite netvarką iš tinklalapių, įskaitant skelbimus, pranešimus apie slapukus, iššokančiuosius",
         "description": "The description of your extension"
     }
 }

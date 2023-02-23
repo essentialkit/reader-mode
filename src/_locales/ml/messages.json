@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "ബ്ര browser സർ വിപുലീകരണ സ്റ്റാർട്ടർ",
+        "message": "റീഡർ മോഡ്",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.",
+        "message": "റീഡർ മോഡ്",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "ബ്ര browser സർ വിപുലീകരണ ഉദാഹരണം. ടൈപ്പ്സ്ക്രിപ്റ്റ്, E2E ടെസ്റ്റുകൾ, ഐക്കൺ ജനറേഷൻ, ഓട്ടോമാറ്റിക് I18N, ESBUILD",
+        "message": "പരസ്യങ്ങൾ, കുക്കി അറിയിപ്പുകൾ, പോപ്പ്അപ്പുകൾ എന്നിവയുൾപ്പെടെ വെബ്പേജുകളിൽ നിന്നുള്ള അലങ്കോലങ്ങൾ മായ്ക്കുക",
         "description": "The description of your extension"
     }
 }

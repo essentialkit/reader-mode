@@ -1,6 +1,6 @@
 const config = {
   name: {
-    value: "xtension",
+    value: "reader-mode",
     description: "The package name of the extension",
     replacements: [
         {
@@ -10,7 +10,7 @@ const config = {
     ],
   },
   display_name: {
-    value: "Browser Extension Starter",
+    value: "Reader Mode",
     description: "The display name of the extension",
     replacements: [
         {
@@ -19,12 +19,12 @@ const config = {
         },
         {
             file: "README.md",
-            match: "Browser Extension Starter",
+            match: "Reader Mode",
         }
     ],
   },
   short_name: {
-    value: "xtension",
+    value: "reader-mode",
     description: "Short name for chrome store",
     replacements: [
         {
@@ -48,10 +48,16 @@ const config = {
     ],
   },
   long_description: {
-    value: `Ask GPT
-        for a much longer
-        and more enticing
-        description.`,
+    value: `A simple extension that optimizes webpages for reading. 
+    
+    With one click (or less!), you can remove distractions like:
+    * Cookie notices
+    * Ads
+    * Popups
+    * Comments
+    * And a host of other distracting elements
+    
+    It leaves only text and images for a clean and consistent reading view on every site.`,
     description: "Added to README and manually to chrome store",
   },
   feature_list: {
@@ -66,7 +72,7 @@ const config = {
     value: [],
   },
   git_repo: {
-    value: "github.com/justiceo/xtension",
+    value: "github.com/justiceo/reader-mode",
   },
   homepage_url: {
     value: "example.com",
@@ -90,7 +96,7 @@ const config = {
     value: false,
   },
   chrome_id: {
-    value: "todo",
+    value: "ifokcmpbomhoaofjkbdhnfldmgiiggof",
     description:
       "Used to update README or as alternative to homepage URL. Generate this by uploading empty manifest",
   },

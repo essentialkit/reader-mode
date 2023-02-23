@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Nettleserutvidelsesstarter",
+        "message": "Lesermodus",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S.",
+        "message": "Lesermodus",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Eksempel på nettleserutvidelse. TypeScript, E2E Tests, Icon Generation, Automatic I18N og Esbuild",
+        "message": "Fjern rotet fra websider inkludert annonser, cookie -varsler, popups",
         "description": "The description of your extension"
     }
 }

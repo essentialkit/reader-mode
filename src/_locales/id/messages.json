@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Starter ekstensi browser",
+        "message": "Mode pembaca",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Mode pembaca",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Contoh ekstensi browser. Naskah, tes e2e, pembuatan ikon, i18n otomatis dan esbuild",
+        "message": "Bersihkan kekacauan dari halaman web termasuk iklan, pemberitahuan cookie, popup",
         "description": "The description of your extension"
     }
 }

@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Predĺženie prehliadača",
+        "message": "Režim",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Režim",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Príklad rozšírenia prehliadača. TypeScript, E2E testy, generovanie ikon, automatické i18n a Esbuild",
+        "message": "Vymažte neporiadok z webových stránok vrátane reklám, oznámení cookie, kontextových konaní",
         "description": "The description of your extension"
     }
 }

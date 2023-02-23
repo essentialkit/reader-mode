@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Démarreur d'extension du navigateur",
+        "message": "Mode lecteur",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Mode lecteur",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Exemple d'extension du navigateur. TypeScript, tests E2E, génération d'icônes, I18N automatique et Esbuild",
+        "message": "Effacer l'encombrement des pages Web, y compris les annonces, les avis de cookies,",
         "description": "The description of your extension"
     }
 }

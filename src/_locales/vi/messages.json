@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Trình duyệt mở rộng khởi động",
+        "message": "Chế độ đọc",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "CÓ S",
+        "message": "Chế độ đọc",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Ví dụ mở rộng trình duyệt. TypeScript, E2E Tests, Icon Generation, Automatic I18N và Esbuild",
+        "message": "Xóa sự lộn xộn từ các trang web bao gồm quảng cáo, thông báo cookie, cửa sổ bật lên",
         "description": "The description of your extension"
     }
 }

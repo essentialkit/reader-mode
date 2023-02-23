@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Brauseri pikenduse starter",
+        "message": "Lugejarežiim",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Lugejarežiim",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Brauseri laienduse näide. TypeScript, E2E testid, ikoonide genereerimine, automaatne i18n ja esbuild",
+        "message": "Tühjendage veebilehtede segadus, sealhulgas reklaamid, küpsiste teated, hüpikaknad",
         "description": "The description of your extension"
     }
 }

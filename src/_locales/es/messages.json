@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Arrancador de extensión del navegador",
+        "message": "Modo de lector",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Modo de lector",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Ejemplo de extensión del navegador. TypeScript, E2E Pruebas, Generación de Icones, Automático I18N y ESBuild",
+        "message": "Borre el desorden de las páginas web que incluye anuncios, avisos de galletas, ventanas emergentes",
         "description": "The description of your extension"
     }
 }

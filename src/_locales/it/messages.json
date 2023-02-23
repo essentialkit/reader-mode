@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Starter di estensione del browser",
+        "message": "Modalità lettore",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "ESSERE S",
+        "message": "Modalità lettore",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Esempio di estensione del browser. TypeScript, test E2E, generazione di icona, i18n automatico ed esbuild",
+        "message": "Cancella il disordine dalle pagine Web tra cui annunci, avvisi di cookie, popup",
         "description": "The description of your extension"
     }
 }

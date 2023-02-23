@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "አሳሽ ቅጥያ ጅምር",
+        "message": "አንባቢ ሁነታን",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.e.s",
+        "message": "አንባቢ ሁነታን",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "የአሳሽ ቅጥያ ምሳሌ. AlyCript, EE2E ሙከራዎች, አዶ ትውልድ, አውቶማቲክ i18n እና ESBEADED",
+        "message": "ማስታወቂያዎችን, የኩኪ ማስታወሻዎችን, ብቅፖችን ጨምሮ ከድር ገጾች ክላቹን ያፅዱ",
         "description": "The description of your extension"
     }
 }

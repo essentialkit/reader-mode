@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Selaimen laajennuksen aloittaja",
+        "message": "Lukijatila",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Lukijatila",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Selaimen laajennusesimerkki. TYPLEKSTRIA, E2E -testit, kuvakkeen sukupolvi, automaattinen i18n ja Esbuild",
+        "message": "Tyhjennä sotku verkkosivuilta, mukaan lukien mainokset, evästeilmoitukset, ponnahdusikkunat",
         "description": "The description of your extension"
     }
 }

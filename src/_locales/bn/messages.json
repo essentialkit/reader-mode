@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "ব্রাউজার এক্সটেনশন স্টার্টার",
+        "message": "পাঠক মোড",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "বি.ই.এস.",
+        "message": "পাঠক মোড",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "ব্রাউজার এক্সটেনশন উদাহরণ। টাইপস্ক্রিপ্ট, ই 2 ই পরীক্ষা, আইকন জেনারেশন, স্বয়ংক্রিয় আই 18 এন এবং এসবিল্ড",
+        "message": "বিজ্ঞাপন, কুকি নোটিশ, পপআপ সহ ওয়েবপৃষ্ঠাগুলি থেকে বিশৃঙ্খলা সাফ করুন",
         "description": "The description of your extension"
     }
 }

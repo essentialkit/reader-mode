@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "بداية امتداد المتصفح",
+        "message": "وضع القارئ",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "ب",
+        "message": "وضع القارئ",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "مثال تمديد المتصفح. TypeScript ، اختبارات E2E ، توليد الرمز ، I18N التلقائي و ESBUILD",
+        "message": "امسح الفوضى من صفحات الويب بما في ذلك الإعلانات وإشعارات ملفات تعريف الارتباط والنوافذ المنبثقة",
         "description": "The description of your extension"
     }
 }

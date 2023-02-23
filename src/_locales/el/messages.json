@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Εκκινητής επέκτασης του προγράμματος περιήγησης",
+        "message": "Λειτουργία αναγνώστη",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "Λειτουργία αναγνώστη",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Παράδειγμα επέκτασης του προγράμματος περιήγησης. TypeScript, δοκιμές E2E, δημιουργία εικονιδίων, αυτόματη I18N και ESBUILD",
+        "message": "Καθαρίστε την ακαταστασία από ιστοσελίδες, συμπεριλαμβανομένων διαφημίσεων, ειδοποιήσεις cookie, αναδυόμενα παράθυρα",
         "description": "The description of your extension"
     }
 }

@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "استارت پسوند مرورگر",
+        "message": "حالت خواننده",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "b.e.s",
+        "message": "حالت خواننده",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "مثال پسوند مرورگر. TypeScript ، تست های E2E ، تولید نماد ، Automatic I18N و Esbuild",
+        "message": "درهم و برهمی را از صفحات وب از جمله تبلیغات ، اعلامیه های کوکی ، پنجره ها پاک کنید",
         "description": "The description of your extension"
     }
 }

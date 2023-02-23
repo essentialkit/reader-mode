@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "Browser -Erweiterungsstarter",
+        "message": "Lesermodus",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S.S",
+        "message": "Lesermodus",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "Beispiel für Browsererweiterung. TypeScript, E2E -Tests, Icon -Generierung, automatische I18N und Esbuild",
+        "message": "Entfernen Sie die Unordnung von Webseiten, einschließlich Anzeigen, Cookie -Mitteilungen, Popups",
         "description": "The description of your extension"
     }
 }

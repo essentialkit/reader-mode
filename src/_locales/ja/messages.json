@@ -1,14 +1,14 @@
 {
     "appName": {
-        "message": "ブラウザ拡張スターター",
+        "message": "リーダーモード",
         "description": "The name of the extension"
     },
     "appShortName": {
-        "message": "B.E.S",
+        "message": "リーダーモード",
         "description": "The short-version name of the extension name"
     },
     "appDesc": {
-        "message": "ブラウザ拡張機能の例。 タイプスクリプト、E2Eテスト、アイコン生成、自動I18NおよびESBUILD",
+        "message": "広告、クッキー通知、ポップアップを含むウェブページから混乱をクリアする",
         "description": "The description of your extension"
     }
 }
