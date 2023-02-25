@@ -17,7 +17,14 @@ const onMessage = (
 chrome.runtime.onMessage.addListener(onMessage);
 
 class Reader {
+  // Matches subdomains e.g. en.wikipedia.org or hosts with different ports e.g. github.com:443.
+  excludedHosts = ["github.com", "wikipedia.org"];
   async render() {
+    const isExcludedHost = this.excludedHosts.find(d => window.location.hostname.indexOf(d) >= 0);
+    if(isExcludedHost) {
+      console.log("Skipping excluded host");
+      return;
+    }
     const winboxOptions = {
       icon: chrome.runtime.getURL("assets/logo-24x24.png"),
       width: "100%",
@@ -35,22 +42,29 @@ class Reader {
       return;
     }
    
-    let article = await Parser.parse(window.location.href, document.body.innerHTML.toString()).then(result => result);
+    let article = await Parser.parse(window.location.href, {
+        html: (document.body.cloneNode(true) as HTMLBodyElement).innerHTML
+      }).then(result => result);
+
     if (!article) {
       console.warn("Failed to parse article");
       return;
     }
-    if(!article.title || !article.content || article.word_count < 100) {
+    if(!article.title || !article.content || article.word_count < 100 || (!article.author && !article.published_date)) {
       console.warn("Skipping potentially unsuitable article");
       return;
     }
+    console.log("Rendering article", article);
     winboxOptions.html = `
-    <h1>${article.title}</h1> 
-    <img src="${article.lead_image_url}" /> 
-    <p>${article.author}</p> 
-    <p>${article.date_published}</p> 
-    <i>${article.excerpt}</i>
-    ${article.content}`;
+    <div class="container">
+      <h1>${article.title}</h1> 
+      <img src="${article.lead_image_url}" /> 
+      <p>
+        <span class="author">${article.author}</span>
+        <span class="published_date">${article.date_published}</span>
+      </p>
+      <div class="content">${article.content}</div>
+    </div>`
     new WinBox(chrome.i18n.getMessage("appName"), winboxOptions);
   }
 
